@@ -10,7 +10,7 @@ Each level is a surface, with a given geometry (mountains, valleys, etc) and you
   
 Those are some of the questions that you will have to answer to fully complete a level. The inhabitants of the surface itself will tell you their story, their worries and maybe some clue.
 
-There is **no needed background of Mathematics to play this game**. Moreover, you will learn a lot of Topology just by playing this game!
+There is **no needed background of Mathematics to play this game**. Moreover, you will learn a lot of Topology just by playing it!
 
 
 This project is in a very early stage of development. So far, I have only completed a 'teaser', where you can walk around different surfaces (Torus, Moebius band, projective plane and Klein bottle) with very simple geometric structures and discover the counter intuitive consequences of orientation.

@@ -8,7 +8,7 @@ Each level is a surface, with a given geometry (mountains, valleys, etc) and you
 - _Am I on the surface of a sphere or is it a donut?_
 - _What are the closed paths that I can walk around the surface that cannot be deformed into a point? (for example, in a sphere those are all the loops. But in the surface of a donut not all of them can)._
   
-Those are some of the questions that you will have to answer to fully complete a level. The inhabitants of the surface itself will tell you their history, their worries and maybe some clue.
+Those are some of the questions that you will have to answer to fully complete a level. The inhabitants of the surface itself will tell you their story, their worries and maybe some clue.
 
 There is **no needed background of Mathematics to play this game**. Moreover, you will learn a lot of Topology just by playing this game!
 

@@ -35,7 +35,7 @@ The project is planned as follows:
 ## TopEngine: the topological render
 
 So far we are in part 1. We are developing an engine that processes locally topological information.
-- A surface is given by a triangulation in a pure combinatorial way (note that the surface may not be embedded in R^3)
+- A surface is given by a triangulation in a pure combinatorial way (note that the surface may not be embedded in $\mathbb{R}^3$)
 - All the topological information (position of landmarks, orientations, etc) is stored in this simplicial complex.
 - A riemannian metric is given in each triangle.
 

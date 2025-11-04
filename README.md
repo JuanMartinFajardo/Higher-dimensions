@@ -1,0 +1,39 @@
+Higher Dimensions is a game project where the player will have to go through different surfaces to discover their inner topology to progress on the story.
+Each level is a surface, with a given geometry (mountains, valleys, etc) and you have to discover what is the inner topology of it:
+
+- If I walk straight in one direction, will I get to the same point?
+- Why is everything reversed if I make a loop to the north but not to the west?
+- Am I on the surface of a sphere or is it a donut?
+- What are the closed paths that I can walk around the surface that cannot be deformed into a point? (for example, in a sphere those are all the loops. But in the surface of a donut not all of them can).
+  
+Those are some of the questions that you will have to answer to fully complete a level. The inhabitants of the surface itself will tell you their history, their worries and maybe some clue.
+
+There is no needed background of Mathematics to play this game. Moreover, you will learn a lot of Topology just by playing this game!
+
+
+This project is in a very early stage of development. So far, I have only completed a 'teaser', where you can walk around different surfaces (Torus, Moebius band, projective plane and Klein bottle) with very simple geometric structures and discover the anti-intuitive consequences of orientation.
+
+Parts of this project:
+1. Engine that renders surfaces locally: TopEngine
+2. Algorithm to compute homotopy deformations of loops
+3. Game mechanics development
+4. Level design
+5. Minimalistic aesthetic design and music
+
+
+So far we are in part 1. We are developing an Engine that processes locally topological information.
+- A surface is given by a triangulation in a pure combinatorial way (note that the surface may not be embedded in R^3)
+- All the topological information (position of landmarks, orientations, etc) is stored in this simplicial complex.
+- A riemannian metric is given in each triangle.
+
+The engine knows exacly where is everything, and we walk around the surface. But the render only processes the information of a disk around us.
+1. We find the correspondent disk on the surface
+2. We load the topological information on that disk
+3. We process the local geometry by solving a laplacian
+
+
+Math needed to design it:
+- Topology of simplicial complexes and a bit of combinatorics
+- Riemannian geometry and basic numerical methods to solve laplace equation
+- Paralell transport and holonomy basics to correctly track the movement of the player in the surface
+- Some algorithms in combinatorial homotopy theory, to compute deformations of loops

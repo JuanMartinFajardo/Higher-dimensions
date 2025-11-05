@@ -50,3 +50,6 @@ Math needed to design it:
 - Riemannian geometry and basic numerical methods to solve laplace equation
 - Paralell transport and holonomy basics to correctly track the movement of the player in the surface
 - Some algorithms in combinatorial homotopy theory, to compute deformations of loops.
+
+
+If you have any suggestion or want to contribute somehow to the project, send an email to juanmartin.faj@gmail.com.

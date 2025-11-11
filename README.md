@@ -49,8 +49,8 @@ The engine knows exacly where is everything, and we walk around the surface. But
 
 Math needed to design it:
 - Topology of simplicial complexes and a bit of combinatorics
-- Riemannian geometry and basic numerical methods to solve laplace equation
-- Paralell transport and holonomy basics to correctly track the movement of the player in the surface
+- Riemannian geometry: paralell transport and holonomy basics, in order to correctly process the movement of the player and the local curvature.
+- Basic numerical methods to solve the Laplace equation.
 - Some algorithms in combinatorial homotopy theory, to compute deformations of loops.
 
 

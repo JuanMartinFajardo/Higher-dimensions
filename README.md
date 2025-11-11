@@ -9,8 +9,10 @@ Each level is a surface, with a given geometry (mountains, valleys, etc) and you
 - _What are the closed paths that I can walk around the surface that cannot be deformed into a point? (for example, in a sphere those are all the loops. But in the surface of a donut not all of them can)._
   
 Those are some of the questions that you will have to answer to fully complete a level. The inhabitants of the surface itself will tell you their story, their worries and maybe some clue.
+In particular, the goal of a level is to go walk along the surface and come back to the initial point. The game will tell you if the path you have walked is contractible or not. You will have to collect a few non contractible (independent) paths in order to go to the next level. This task is equivalent to find the generators of the fundamental group.
+For extra rewards, the player should discover whether there is torsion (doing a loop several times makes it contractible) and what happens with the orientation.
 
-There is **no needed background of Mathematics to play this game**. Moreover, you will learn a lot of Topology just by playing it!
+There is **no needed background of Mathematics to play this game**. Moreover, you will learn a lot of Topology along the way!
 
 
 This project is in a very early stage of development. So far, I have only completed a 'teaser', where you can walk around different surfaces (Torus, Moebius band, projective plane and Klein bottle) with very simple geometric structures and discover the counter intuitive consequences of orientation.

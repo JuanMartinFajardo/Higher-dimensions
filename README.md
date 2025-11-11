@@ -1,7 +1,7 @@
 # Higher Dimensions
 
 Higher Dimensions is a game project where the player will have to go **through different surfaces to discover their inner topology** to progress on the story.
-Each level is a surface, with a given geometry (mountains, valleys, etc) and you have to discover what is its subjacent topology:
+Each level is a surface, with a given geometry (mountains, valleys, etc) and you have to discover what is the topology behind:
 
 - _If I walk straight in one direction, will I get to the same point?_
 - _Why is everything reversed if I make a loop to the north but not to the west?_
